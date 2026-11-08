@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-grill-me",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Structured planning and requirement gathering command for DeepSeek Harness mimicking the Antigravity /grill-me workflow",
   "type": "module",
   "license": "MIT",
