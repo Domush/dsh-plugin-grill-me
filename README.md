@@ -1,6 +1,7 @@
 # dsh-plugin-grill-me
 
 [![npm version](https://img.shields.io/npm/v/dsh-plugin-grill-me.svg)](https://www.npmjs.com/package/dsh-plugin-grill-me)
+[![DSH Plugin](https://img.shields.io/badge/DSH-Plugin-blue.svg)](https://github.com/deepseek-ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Structured planning and requirement gathering slash command for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
