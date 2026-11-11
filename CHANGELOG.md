@@ -5,6 +5,17 @@ All notable changes to `dsh-plugin-grill-me` will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-11-10
+
+### Changed
+- Migrated requirement-gathering instructions from synthesized user message steering to dynamic system prompt injection (`systemPrompt.section`).
+- Tied requirement-gathering lifecycle directly to native `planMode`: guidelines deactivate automatically upon plan approval via `exit_plan_mode` or `/grill-me off`.
+- `/grill-me <goal>` now steers only the user's raw goal text as the user message.
+
+### Fixed
+- Fixed chat UI and message history pollution caused by steering multi-paragraph prompt templates with `source.kind: "user"`.
+- Fixed message history (`dsh-plugin-message-history`) capturing the requirement template into input arrow-key navigation buffers.
+
 ## [1.0.3] - 2026-11-09
 
 ### Added
